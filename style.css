@@ -4,7 +4,8 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -18,16 +19,17 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 30px;  
+    gap: 30px;
 }
 
-.naveg{
+.naveg {
     color: black;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
 }
-#rj{
+
+#rj {
     width: 100%;
     height: 300px;
     background-repeat: no-repeat;
@@ -35,15 +37,17 @@ nav {
     background-size: cover;
     background-position: center center;
 }
-main{
-  padding: 0 20px 0px 20px ;
-  display: flex; 
-  margin-left: 25px;
-  margin-right: 20px; 
-  gap: 20px;
-  flex-direction: row;
+
+main {
+    padding: 0 20px 0px 20px;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 20px;
+    gap: 20px;
+    flex-direction: row;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -51,35 +55,40 @@ ul{
     margin-top: 15px;
 }
 
-h2{
+h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#infor{
+
+#infor {
     color: white;
     background-color: black;
-   padding: 15px;
-   margin-top: 15px;
+    padding: 15px;
+    margin-top: 15px;
     border-radius: 20px;
 }
-ol{
+
+ol {
     padding-left: 25px;
     padding-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-#cidade{
+
+#cidade {
     color: #38B6FF;
 }
-#cartao{
+
+#cartao {
     width: 100%;
     margin-top: 15px;
-    margin-left:7px;
+    margin-left: 7px;
     margin-right: 26px;
     border-radius: 15px;
 }
-footer{
+
+footer {
     display: flex;
     gap: 10px;
     background-color: black;
@@ -88,13 +97,21 @@ footer{
     justify-content: center;
     flex-direction: column;
 }
-
-#linha{
-    background-color: white;
+.social{
+    color: #38B6FF;
 }
 
-@media(max-width: 630px ){
-    main{
+@media(max-width: 630px) {
+    main {
         flex-direction: column;
+    }
+
+    .naveg {
+        font-size: 1rem;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
     }
 }
